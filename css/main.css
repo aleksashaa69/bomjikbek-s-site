@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 16;
+}
+
+a {
+    text-decoration: none;
+}
+
+.porno-img {
+    max-width: 32%;
+}
+
+.wrapper {
+    background: linear-gradient(0deg,rgba(77, 41, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    width: 100%;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 50px 0;
+}
+
+header .logo {
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 800;
+}
+
+header nav  {
+    float: right;
+    width: 50%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: white;
+}
+
+header nav ul li.active::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #ffa94d;
+    border-radius: 10px;
+    position: relative;
+    top: 12px;
+    left: -20px;
+}
+
+header nav ul li:not(.active):not(.btn) a:hover {
+    border-bottom: 3px solid #ffbf7b;
+    transition: all 50ms ease;
+}
+
+header nav ul li.btn a {
+    background: #a75600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 250ms ease;
+}
+
+header nav ul li.btn a:hover {
+    background: #804200;
+}
+
+.hero {
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.hero--info {
+    width: 530px;
+}
+
+.hero--info h2 {
+    color:#ffa94d;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hero--info h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.hero--info p {
+    font-weight: 500;
+    line-height: 170%;
+    margin: 30px 0;
+}
+
+.hero--info .btn {
+    background: #a75600;
+    color: white;
+    border-radius: 50px;
+    padding: 15px 30px;
+    border: 0;
+    transition: all 250ms ease;
+    font-size: 17px;
+}
+
+.hero--info .btn:hover {
+    cursor: pointer;
+    transform: scale(110%);
+}
+
+.hero img {
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+
+.glist-img {
+    position: absolute;
+    transform: translate(-800px, -240px);
+    width: 300px;
+}
+
+
+/* Секция с кунсткмерой */
+
+
+.trending h3 {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.trending .see-all {
+    color: white;
+    background: #25211d;
+    border-radius: 5px;
+    padding: 12px 23px;
+    float: right;
+    display: block;
+    transition: all 250ms ease;
+}
+
+.trending .see-all:hover {
+    transform: scale(110%);
+}
+
+.kunstkamera-img {
+    max-width: 100%;
+}
+
+.trending .photos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.trending .photos span {
+    display: block;
+    text-align: center;
+}
+
+.trending .photos span img {
+    position: relative;
+    top: 7px;
+    margin-right: 5px;
+}
+
+.big-text {
+    padding: 40px 0;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    width: 900px;
+}
+
+
+.banner h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.banner p {
+    line-height: 170%;
+    margin-bottom: 30px;
+    width: 700px;
+}
+
+.banner img {
+    width: 100%;
+    margin-bottom: 30px;
+}
